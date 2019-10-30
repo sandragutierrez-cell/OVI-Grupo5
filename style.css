@@ -1,6 +1,8 @@
 @charset "uft-8";
 /*Este estilo quita los margenes que pueden generar los navegadores*/
 *{margin:0; padding:0;}
+*{box-sizing: border-box}
+
 
 /*Se establece un fondo de color casi blanco*/
 body {
@@ -11,6 +13,13 @@ header{
   width: 100%;
   overflow: hidden;
   background: #2066df;
+  margin-bottom: 20px;
+}
+
+content{
+  width: 100%;
+  overflow: hidden;
+  background: #gray;
   margin-bottom: 20px;
 }
 
@@ -40,21 +49,42 @@ input[TYPE="search"]{
   border: none;
 }
 
-header2 nav a {
-  display: inline-block;
-  color: #0c1022;
-  text-decoration: none;
-  padding: 10px 20px;
-  line-height: normal;
-  font-size: 20px;
-  font-weight: bold;
-  -webkit-transition: all 500ms ease;
-  -o-transition:all 500ms ease;
-  transition: all 500ms ease;
-  border-radius: 50px;
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
 }
 
-header2 nav a:hover{
-  background: #f56f3a;
-
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
 }
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black ;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Page1 {background-color: white;}
+#Page2 {background-color: white;}
+#Page3 {background-color: white;}
+#Page4 {background-color: white;}
+
+.pre1{border:1px solid #ccc;padding:10px;margin:12px 0 10px;font-size:0,9em;}
