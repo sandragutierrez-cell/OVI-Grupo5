@@ -1,0 +1,60 @@
+@charset "uft-8";
+/*Este estilo quita los margenes que pueden generar los navegadores*/
+*{margin:0; padding:0;}
+
+/*Se establece un fondo de color casi blanco*/
+body {
+  background:#fffffa;
+}
+
+header{
+  width: 100%;
+  overflow: hidden;
+  background: #2066df;
+  margin-bottom: 20px;
+}
+
+/*Este estilo permite centrar el contenido deseado al 95% de la ventana y maximo de 1400px*/
+.wrapper {
+  width: 95%;
+  max-width: 1400px;
+  margin:auto;
+  overflow: hidden;
+}
+
+header .logo {
+ color:white;
+ font-size: 40px;
+ line-height: 120px;
+ float: left;
+}
+
+header .lateral {
+ float: right;
+ line-height: 50px;
+}
+
+input[TYPE="search"]{
+  padding: 10px;
+  padding-right: 35px;
+  border: none;
+}
+
+header2 nav a {
+  display: inline-block;
+  color: #0c1022;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-transition: all 500ms ease;
+  -o-transition:all 500ms ease;
+  transition: all 500ms ease;
+  border-radius: 50px;
+}
+
+header2 nav a:hover{
+  background: #f56f3a;
+
+}
