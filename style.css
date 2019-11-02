@@ -9,15 +9,23 @@ body {
 }
 p{
   padding: 5px;
+  color:white;
+
 }
 h3{
   padding: 8px;
+  color:white;
+}
+h4{
+  padding: 8px;
+  color:white;
 }
 header{
   width: 100%;
   overflow: hidden;
   background: #005883;
   margin-bottom: 20px;
+  
 }
 
 footer{
@@ -39,6 +47,8 @@ content{
   overflow: hidden;
   background: #gray;
   margin-bottom: 20px;
+  
+    
 }
 
 /*Este estilo permite centrar el contenido deseado al 95% de la ventana y maximo de 1400px*/
@@ -47,6 +57,7 @@ content{
   max-width: 1400px;
   margin:auto;
   overflow: hidden;
+ 
 }
 
 header .logo {
@@ -97,6 +108,7 @@ body, html {
   display: none;
   padding: 100px 20px;
   height: 100%;
+  background-image:linear-gradient(to left bottom, rgb(31, 31, 161, 0.5685),rgba(12, 12, 26, 0.5685)), url("https://cdn.pixabay.com/photo/2019/07/23/16/22/zollverein-4358088_960_720.jpg");
 }
 #Page0 {background-color: white;}
 #Page1 {background-color: white;}
@@ -104,7 +116,14 @@ body, html {
 #Page3 {background-color: white;}
 #Page4 {background-color: white;}
 
-.pre1{border:1px solid #ccc;padding:10px;margin:12px 0 10px;font-size:0,9em;}
+.pre1{
+  border:1px solid #ccc;
+  padding:10px;
+  margin:12px 0 10px;
+  font-size:5.888;
+  color:white;
+  ;
+}
 
 /*Estilo para la tabla de participantes*/
 table {
@@ -114,11 +133,40 @@ table {
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  color:white;
+  border: 1px solid #fafafa;
   text-align: left;
   padding: 8px;
+  background-color: #121e55;
 }
 
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+.redes{
+  
+  
+  
+  padding: 8px;
+  background-color: #121e55;
+ 
+}
+.caja-logo {
+  position: absolute;
+  top: -10px;
+  left: 800px;
+  animation-name: AnimacionTitulo;
+  animation-duration:  3s;
+  }
+ 
+@keyframes AnimacionTitulo {
+  0%{
+          opacity: 0;
+          transform: translateY(-100px);
+  }
+  100%{
+          opacity: 1;
+          transform: translateY(0px);
+  }
+  
+
