@@ -16,10 +16,6 @@ h3{
   padding: 8px;
   color:white;
 }
-h4{
-  padding: 8px;
-  color:white;
-}
 header{
   width: 100%;
   overflow: hidden;
@@ -158,6 +154,10 @@ tr:nth-child(even) {
   animation-name: AnimacionTitulo;
   animation-duration:  3s;
   }
+  .audioa{
+    border: #005883;
+  }
+  
  
 @keyframes AnimacionTitulo {
   0%{
